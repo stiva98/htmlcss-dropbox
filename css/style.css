@@ -17,6 +17,10 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+.mini-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
 .my-row-header {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +68,16 @@ li * {
 .my-col-left > img {
     max-width: 100%;
 }
+.mini-container > h2 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+.mini-container > .margin {
+    margin-left: 50px;
+}
+
+
 /*
 BUTTONS
 */
