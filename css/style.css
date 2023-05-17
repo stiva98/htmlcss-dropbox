@@ -54,6 +54,10 @@ li * {
     width: 30%;
     position: relative;
 }
+.my-col-right-3 {
+    width: 40%;
+}
+
 .my-col-right > p {
     font-size: 0.8em;
 }
@@ -61,6 +65,19 @@ li * {
     position: absolute;
     bottom: 10px;
 }
+.my-col-right-3 {
+    width: 40%;
+    padding: 50px;
+}
+.my-col-right-3 > h2 {
+    font-size: 1.1em;
+}
+.my-col-right-3 > p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .my-col-left {
     width: 70%;
     margin-bottom: -70px;
@@ -68,11 +85,17 @@ li * {
 .my-col-left-2 {
     width: 70%;
 }
+.my-col-left-3 {
+    width: 60%;
+}
 .my-col-left-2 > h4 {
    margin-top: 15px;
    margin-bottom: 30px;
 }
 .my-col-left > img {
+    max-width: 100%;
+}
+.my-col-left-3 > img {
     max-width: 100%;
 }
 .mini-container > h2 {
@@ -92,6 +115,7 @@ li * {
     border: 2px solid #ddddde;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 .col-marg{
     margin: 0 30px;
@@ -156,6 +180,11 @@ BUTTONS
     border: none;
     padding: 10px 70px;
     margin: 30px 0;
+}
+.my-buttons-border{
+    border: 1px solid black;
+    padding: 7px 15px;
+    background-color: transparent;
 }
 .trasparent {
     background-color: transparent;
