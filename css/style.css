@@ -180,6 +180,10 @@ li * {
 p > a {
     color: #0061ff;
 }
+.mini-container a {
+    color: #0061ff;
+    font-size: 0.8em;
+}
 .mini-border {
     background-color: transparent;
     border-bottom: 2px solid #ddddde;
