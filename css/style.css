@@ -13,6 +13,12 @@ GENERAL
 body {
     font-family: 'Open Sans', sans-serif;
 }
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -111,6 +117,9 @@ li * {
     border: 2px solid #ddddde;
     width: calc((100% / 3) - 20px);
 }
+.my-col-1-6 {
+    width: calc((100% / 3) - 40px);
+}
 .my-col-big {
     border: 2px solid #ddddde;
     width: 100%;
@@ -120,6 +129,12 @@ li * {
 .col-marg{
     margin: 0 30px;
 }
+.col-marg-1-6 {
+    margin: 20px;
+}
+.margin-my-col-6 {
+    margin: 0 -20px;
+}
 .header-my-col {
     width: 100%;
     border-bottom: 2px solid #ddddde;
@@ -127,10 +142,20 @@ li * {
     text-align: center;
     font-size: 0.8em;
 }
+.header-my-img > img{
+    width: 100%;
+}
 .body-my-col {
     width: 100%;
     padding: 30px 20px;
     font-size: 0.8em;
+}
+.body-my-img {
+    width: 100%;
+    font-size: 0.8em;
+}
+.body-my-img > h2 {
+    margin-bottom: 20px;
 }
 .body-my-col > h2 {
     margin-bottom: 10px;
