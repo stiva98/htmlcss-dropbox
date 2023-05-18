@@ -37,6 +37,11 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+.my-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .my-row-right{
     display: flex;
     flex-wrap: wrap;
@@ -260,6 +265,19 @@ p > a {
 .my-col-color img {
     filter: brightness(0) invert(1);
 }
+.padding-container{
+    padding: 100px 0px;
+}
+.my-title-h2 {
+    width: 50%;
+    color: #61082b;
+    font-size: 1.2em;
+}
+.my-title-button {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
 /*
 BUTTONS
 */
@@ -277,6 +295,11 @@ BUTTONS
     border: none;
     padding: 10px 70px;
     margin: 30px 0;
+}
+.my-buttons-big-3{
+    border: none;
+    padding: 10px 25px;
+    position: absolute;
 }
 .my-buttons-border{
     border: 1px solid black;
@@ -314,5 +337,6 @@ MAIN
     font-size: 4em;
     padding: 50px 0px;
 }
+
 
 
