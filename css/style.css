@@ -151,6 +151,10 @@ li * {
     justify-content: center;
     align-items: center;
 }
+.my-col-1-5 {
+    width: calc((100% / 5) - 100px);
+    margin: 50px;
+}
 .col-marg{
     margin: 0 30px;
 }
@@ -159,6 +163,19 @@ li * {
 }
 .margin-my-col-6 {
     margin: 0 -20px;
+}
+.margin-my-col-1-5 {
+    margin: 0 -50px;
+}
+.my-col-1-5 > h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+.my-col-1-5 a{
+    color: white;
+    font-size: 0.7em;
+    padding: 10px 0px;
+
 }
 .header-my-col {
     width: 100%;
@@ -345,6 +362,12 @@ MAIN
     font-size: 4em;
     padding: 50px 0px;
 }
-
+/*
+FOOTER
+*/
+.footer-top {
+    background-color: black;
+    margin-top: 100px;
+}
 
 
