@@ -240,6 +240,13 @@ p > a {
     height: 40px;
     margin-bottom: 40px;
 }
+.mini-border-3 {
+    background-color: transparent;
+    border-bottom: 2px solid #ddddde;
+    width: 100px;
+    height: 40px;
+    padding-bottom: 40px;
+}
 .first {
     background-color: #a2d39b;
     border: 10px solid #d1e9cd;
@@ -369,5 +376,11 @@ FOOTER
     background-color: black;
     margin-top: 100px;
 }
-
-
+.footer-bottom {
+    background-color: black;
+}
+.footer-bottom p {
+    padding: 40px 0;
+    color: #ddddde;
+    font-size: 0.8em;
+}
