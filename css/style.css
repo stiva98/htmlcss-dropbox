@@ -257,6 +257,9 @@ p > a {
     font-size: 0.8em;
     margin-bottom: 40px;
 }
+.my-col-color img {
+    filter: brightness(0) invert(1);
+}
 /*
 BUTTONS
 */
